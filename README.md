@@ -19,5 +19,17 @@ methods|parame|describe
 ---|:--:|:--:
 rangeNum|val, min, max|[a-zA-Z0-9_]{${min},${max}}
 numL|val, min, max|.{${min},${max}}
-rangeNum|min, max|[a-zA-Z0-9_]{${min},${max}}
+isPhone|val|是否是手机号
+isMobile|val|是否是固定电话
+isFloat|val|是否是浮点数
+isEmail|val|邮箱校验
+isNumber|val|数字Number校验
+isCard|val|身份证件校验
+checkIDcard|val|{ errno: errNo, birthday: birth, gender: getSex(card), age: getAge(card), provice: getProvince(card) }
+
+> 具体详情看源代码
+
+
+
+
 
