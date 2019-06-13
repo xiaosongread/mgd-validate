@@ -17,5 +17,7 @@ validate.isEmail(email) // return true
 #### api
 methods|parame|describe 
 ---|:--:|:--:
+rangeNum|val, min, max|[a-zA-Z0-9_]{${min},${max}}
+numL|val, min, max|.{${min},${max}}
 rangeNum|min, max|[a-zA-Z0-9_]{${min},${max}}
 
